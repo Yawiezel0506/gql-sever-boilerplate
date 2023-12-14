@@ -45,7 +45,7 @@ export const UsersResolvers = {
       if (edit === "error") {
         throw new Error("user not found");
       }
-      return edit; //// && edit.user;
+      return edit;
     },
   },
 };

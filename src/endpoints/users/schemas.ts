@@ -25,7 +25,6 @@ export const usersType = `#graphql
 
 export const usersQuery = `#graphql
     getAllUsers: [UserRegister!]
-    getUserById(id: String!): UserRegister
 `;
 
 export const usersMutation = `#graphql
